@@ -43,7 +43,7 @@ export function Contact() {
       className="scroll-mt-20 px-4 py-12 sm:px-6 sm:py-16 lg:px-8"
     >
       <div className="mx-auto max-w-5xl">
-        <div className="overflow-hidden rounded-[2rem] bg-gradient-to-br from-sky-600 to-cyan-500 p-6 text-white shadow-xl shadow-sky-200 sm:p-8 lg:p-10">
+        <div className="overflow-hidden rounded-[2rem] bg-gradient-to-br from-sky-600 to-cyan-500 p-6 text-white shadow-xl shadow-sky-200 dark:from-sky-700 dark:to-cyan-600 dark:shadow-sky-950/50 sm:p-8 lg:p-10">
           <div className="max-w-2xl">
             <p className="text-sm font-semibold uppercase tracking-wider text-sky-100">
               Контакты
@@ -110,7 +110,7 @@ export function Contact() {
             href={site.mapUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 inline-flex min-h-12 w-full items-center justify-center rounded-2xl bg-white px-6 py-3 text-base font-semibold text-sky-700 transition hover:bg-sky-50 active:scale-[0.98] sm:w-auto"
+            className="mt-6 inline-flex min-h-12 w-full items-center justify-center rounded-2xl bg-white px-6 py-3 text-base font-semibold text-sky-700 transition hover:bg-sky-50 active:scale-[0.98] dark:text-sky-800 sm:w-auto"
           >
             Открыть на карте
           </a>
